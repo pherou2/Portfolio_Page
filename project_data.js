@@ -13,6 +13,27 @@ document.getElementsByClassName("mb-0")[0].innerHTML = personalData.firstname+" 
 document.getElementsByClassName("subheading mb-5")[0].innerHTML = personalData.address +"  ·  "+personalData.phone;
 
 
+var projects = [
+    {"name":"IT202 Project 1", "display":"true", "description":"My first webpage displaying my hobbies"+
+        " and links to corresponding sites", "image":"", "codeURL":"https://github.com/pherou2/IT202/tree/master/project1",
+        "siteURL":"https://pherou2.github.io/IT202/project1/index.html"},
+    {"name":"IT202 Project 2", "display":"true", "description":"Project manipulating elements of bootstrap component"
+        , "image":"", "codeURL":"https://github.com/pherou2/IT202/tree/master/project2",
+        "siteURL":"https://pherou2.github.io/IT202/project2/index.html"},
+    {"name":"IT202 Project 3", "display":"true", "description":"Querying and displaying City of Chicago data portal food inspections"+
+        " with a search menu and the location of the inspection on google maps", "image":"", "codeURL":"https://github.com/pherou2/IT202/tree/master/project3",
+        "siteURL":"https://pherou2.github.io/IT202/project3/index.html"},
+    {"name":"IT202 Project 4", "display":"true", "description":"Space game where user ship gains points from touching green orb"+
+        " and loses lives from touching the red orb", "image":"", "codeURL":"https://github.com/pherou2/IT202/tree/master/project4",
+        "siteURL":"https://pherou2.github.io/IT202/project4/index.html"},
+    {"name":"IT202 Lab9", "display":"true", "description":"Lab that generates a circle with a random size and color on click"
+        , "image":"", "codeURL":"https://github.com/pherou2/IT202/tree/master/App9",
+        "siteURL":"https://pherou2.github.io/IT202/App9/index.html"}
+    ];
 
 
-
+for (var currProj in projects) {
+    
+    console.log(currProj.name);
+    
+}
