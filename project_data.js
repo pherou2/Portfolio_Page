@@ -30,10 +30,22 @@ var projects = [
         , "image":"", "codeURL":"https://github.com/pherou2/IT202/tree/master/App9",
         "siteURL":"https://pherou2.github.io/IT202/App9/index.html"}
     ];
-
-
+//alert($("a.deleteLink")[0].href);
+//$(".card-title").text("hello there");
+//document.getElementById("github").setAttribute("href", "http://www.google.com");
+$("#github").attr("href","www.google.com");
+console.log($("#github").attr("href"));
+//$("a[href='g']").attr('href', 'http://www.google.com/')
+//console.log(document.getElementById("github"));
 for (var currProj in projects) {
     
-    console.log(currProj.name);
+    console.log(projects[currProj].name);
+    
+    var clone = $("#card").clone();
+    console.log(clone);
+    clone.find(".card-title").text(projects[currProj].name);
+    clone.find(".card-text").text(projects[currProj].description);
+    document.getElementById("github").setAttribute("href", projects[currProj.codeURL]);
+    document.getElementById("weburl").setAttribute("href", projects[currProj.siteURL]);
     
 }
