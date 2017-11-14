@@ -4,7 +4,7 @@ var personalData = {firstname:"Phil",
     lastname:"Heroux",
     phone:"847-648-2497",
     email:"philheroux@outlook.com",
-    address:"2750 Forest Ct.  ·  Deerfield,IL  ·  60015",
+    address:"Deerfield,IL  ·  60015",
     project:"Portfolio Page"};
     
     
