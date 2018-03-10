@@ -30,12 +30,16 @@ var projects = [
         , "image":"./App9IT202.PNG", "codeURL":"https://github.com/pherou2/IT202/tree/master/App9",
         "siteURL":"https://pherou2.github.io/IT202/App9/index.html"},
     {"name":"Android Phone Dialer App", "display":"true", "description":"2 activity app that directs user to enter a number with a certain format and then populates"+ 
-        " phone dial with number upon click", "image":"./PhoneDialerApp.PNG", "codeURL": "https://github.com/pherou2/Android-Phone-Dial-App"}
+        " phone dial with number upon click", "image":"./PhoneDialerApp.PNG", "codeURL": "https://github.com/pherou2/Android-Phone-Dial-App", "siteURL":"https://github.com/pherou2/Android-Phone-Dial-App"},
+    {"name":"Android Song Playlist App", "display": "true", "description": "App that allows user to add Songs to playlist. From the options menu the user "+
+        "is able to add (by adding song details and relevant links) and remove songs. Each item in the list supports short click and long click functionality for different options",
+        "image": "SongPlaylistApp.PNG", "codeURL": "https://github.com/pherou2/Android-Song-Playlist-App", "siteURL": "https://github.com/pherou2/Android-Song-Playlist-App"}
 
     ];
 
 
 for (var currProj in projects) {
+    console.log(projects.size);
     console.log(currProj);
     console.log(projects[currProj].name);
     
