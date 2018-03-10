@@ -28,7 +28,10 @@ var projects = [
         "siteURL":"https://pherou2.github.io/IT202/project4/index.html"},
     {"name":"IT202 Lab9", "display":"true", "description":"Lab that generates a circle with a random size and color on click"
         , "image":"./App9IT202.PNG", "codeURL":"https://github.com/pherou2/IT202/tree/master/App9",
-        "siteURL":"https://pherou2.github.io/IT202/App9/index.html"}
+        "siteURL":"https://pherou2.github.io/IT202/App9/index.html"},
+    {"name":"Android Phone Dialer App", "display":"true", "description":"2 activity app that directs user to enter a number with a certain format and then populates"+ 
+        " phone dial with number upon click", "image":"./PhoneDialerApp.PNG", "codeURL": "https://github.com/pherou2/Android-Phone-Dial-App"}
+
     ];
 
 
